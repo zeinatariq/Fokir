@@ -1,0 +1,63 @@
+@keyframes animate1 {
+    0% {
+        content: " |"
+    }
+
+    10% {
+        content: " |"
+    }
+
+    20% {
+        content: " |"
+    }
+
+    30% {
+        content: "De |"
+    }
+
+    40% {
+        content: "Des |"
+    }
+
+    50% {
+        content: "Desig |"
+    }
+
+    60% {
+        content: "Design |"
+    }
+
+    70% {
+        content: "Designe |"
+    }
+
+    80% {
+        content: "Designer |"
+    }
+
+    90% {
+        content: "Designer |"
+    }
+
+    to {
+        content: "Designer |"
+    }
+}
+
+
+@keyframes animate2 {
+    0% {
+        opacity: 1;
+        top: -20%
+    }
+
+    70% {
+        opacity: 1;
+        top: 50%
+    }
+
+    to {
+        top: 50%;
+        opacity: 0
+    }
+}

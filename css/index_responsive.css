@@ -1,0 +1,349 @@
+
+@media (max-width: 1300px) {
+    .container {
+        width:90%
+    }
+
+    nav .part1 {
+        width: 20%
+    }
+
+    nav .part2 {
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 90%;
+        background-color: #333;
+        border-radius: 10px;
+        padding: 0;
+        height: 0px;
+        overflow: hidden;
+        transition-duration: 1s
+    }
+
+    nav .part2 ul li {
+        display: block;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: auto
+    }
+
+    nav .part2 ul li:not(:last-child) {
+        margin: auto auto 20px
+    }
+
+    nav .navbarButton {
+        display: flex
+    }
+
+    nav .navbarButton:focus+.part2 {
+        padding: 15px 0;
+        height: 244px
+    }
+
+    header .content h4 {
+        font-size: 25px
+    }
+
+    header .content h1 {
+        font-size: 40px
+    }
+
+    header .content p {
+        font-size: 15px
+    }
+
+    section {
+        padding: 40px 0
+    }
+
+    #About .row .col {
+        width: 100%
+    }
+
+    #About .row .part1 {
+        margin-bottom: 60px
+    }
+
+    #About .row .part1 .frame {
+        width: 90%;
+        max-width: 280px
+    }
+
+    #About .row .part1 .frame .img .layout ul li:not(:nth-of-type(4)) {
+        margin-right: 10px
+    }
+
+    #About .row .part1 .frame .img .layout ul li a i {
+        width: 35px;
+        height: 35px
+    }
+
+    #About .row .part2 button {
+        padding: 10px 15px;
+        font-size: 12px
+    }
+
+    #Services .row .col {
+        width: 100%
+    }
+
+    .header {
+        margin-bottom: 30px
+    }
+
+    .header h2 {
+        font-size: 30px
+    }
+
+    .header .lines:before,.header .lines:after {
+        width: 70px
+    }
+
+    .header .lines hr {
+        width: 140px
+    }
+
+    #Services .row .col .item {
+        max-width: 260px;
+        margin: auto
+    }
+
+    #Services .row .col:not(:last-child) .item {
+        margin-bottom: 30px
+    }
+
+    #Portfolio .row .col {
+        width: 100%
+    }
+
+    #Portfolio .row .col .item {
+        max-width: 280px;
+        margin: auto
+    }
+
+    #Portfolio .row .col:not(:last-child) .item {
+        margin-bottom: 30px
+    }
+
+    #Blog .row .col {
+        width: 100%
+    }
+
+    #Blog .row .col .item {
+        max-width: 280px;
+        margin: auto
+    }
+
+    #Blog .row .col:not(:last-child) .item {
+        margin-bottom: 30px
+    }
+
+    #Contact form {
+        width: 90%;
+        max-width: 300px
+    }
+
+    #Contact form .row .col {
+        width: 100%!important
+    }
+
+    #Contact form .row .col:nth-of-type(1) .item {
+        margin-right: 0
+    }
+
+    #Contact form button {
+        display: block;
+        width: 100%
+    }
+
+    footer {
+        padding: 10px 0;
+        font-size: 12px
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    nav .part1 {
+        width:15%
+    }
+
+    header .content h4 {
+        font-size: 30px
+    }
+
+    header .content h1 {
+        font-size: 60px
+    }
+
+    header .content p {
+        font-size: 18px
+    }
+
+    #About .row .part1 .frame {
+        width: 300px
+    }
+
+    #About .row .part2 .row .col {
+        width: 50%
+    }
+
+    #About .row .part2 .row .col .item {
+        font-size: 13px
+    }
+
+    #About .row .part2 button {
+        font-size: 14px
+    }
+
+    footer {
+        padding: 15px 0;
+        font-size: 16px
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    nav .part1 {
+        width:12%
+    }
+
+    header .content h4 {
+        font-size: 35px
+    }
+
+    header .content h1 {
+        font-size: 70px
+    }
+
+    header .content p {
+        font-size: 20px
+    }
+
+    #About .row .part2 .row .col .item {
+        font-size: 14px
+    }
+
+    .header h2 {
+        font-size: 40px
+    }
+
+    .header .lines:before,.header .lines:after {
+        width: 80px
+    }
+
+    .header .lines hr {
+        width: 160px
+    }
+
+    #Services .row .col,#Portfolio .row .col {
+        width: 50%
+    }
+
+    #Portfolio .row .col .item {
+        max-width: 95%
+    }
+
+    #Blog .row .col {
+        width: 50%
+    }
+
+    #Blog .row .col .item {
+        width: 95%;
+        max-width: 280px
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    nav .part1 {
+        width:10%
+    }
+
+    nav .part2 {
+        width: 70%
+    }
+
+    #About .row .col {
+        width: 50%
+    }
+
+    #About .row .part1 {
+        margin-bottom: 0
+    }
+
+    #About .row .part1 .frame {
+        width: 280px
+    }
+
+    #About .row .part2>.item {
+        padding-left: 15px
+    }
+
+    #About .row .part2>.item>p {
+        font-size: 14px
+    }
+
+    #About .row .part2 .row .col .item {
+        font-size: 11px
+    }
+
+    #Portfolio .row .col .item {
+        max-width: 300px
+    }
+
+    #Contact form {
+        width: 70%;
+        max-width: initial
+    }
+
+    #Contact form .row .col:nth-of-type(1),#Contact form .row .col:nth-of-type(2) {
+        width: 50%!important
+    }
+
+    #Contact form .row .col:nth-of-type(1) .item {
+        margin-right: 10px
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    nav .part1 {
+        width:8%
+    }
+
+    #About .row .part2>.item {
+        padding-left: 0
+    }
+
+    #About .row .part2 .row .col .item {
+        font-size: 14px
+    }
+
+    #Services .row .col {
+        width: 25%
+    }
+
+    #Services .row .col .item {
+        margin: 10px;
+        padding: 15px 10px
+    }
+
+    #Portfolio .row .col {
+        width: 33.33%
+    }
+
+    #Portfolio .row .col .item {
+        max-width: 95%
+    }
+
+    #Blog .row .col {
+        width: 33.33%
+    }
+
+    #Blog .row .col:not(:last-child) .item {
+        margin-bottom: 0
+    }
+
+    #Contact form {
+        width: 60%
+    }
+}

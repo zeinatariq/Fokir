@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: Roboto,sans-serif;
+    background-color: #151515;
+    color: #fff
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Exo 2",sans-serif
+}
+
+
+:root {
+    --mainColor: #ff305b;
+    --lightColor: #c1c1c1;
+    --bgColor: #333
+}
+
+.container {
+    width: 80%;
+    margin: auto
+}
+
+section {
+    padding: 60px 0
+}
